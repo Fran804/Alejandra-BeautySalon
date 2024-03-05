@@ -5,6 +5,12 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
+    extend: {
+      width: {
+        '550px': '550px',
+        '300px': '300px'
+      }
+    },
     colors: {
       'classic-rose': {
         '50': '#fbf4f9',
@@ -27,7 +33,7 @@ module.exports = {
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
-    }
+    },
   },
   plugins: [],
 }

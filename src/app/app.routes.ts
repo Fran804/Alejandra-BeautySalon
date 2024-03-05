@@ -7,22 +7,22 @@ import { ContactComponent } from './pages/contact/contact.component';
 export const routes: Routes = [
   {
     path: 'home',
-    title: 'Alejandra Beauty Salon | Inicio',
+    title: 'Alejandra | Inicio',
     component: HomeComponent
   },
   {
     path: 'services',
-    title: 'Alejandra Beauty Salon | Servicios',
+    title: 'Alejandra | Servicios',
     component: ServicesComponent
   },
   {
     path: 'gallery',
-    title: 'Alejandra Beauty Salon | Galeria',
+    title: 'Alejandra | Galeria',
     component: GalleryComponent
   },
   {
     path: 'contact',
-    title: 'Alejandra Beauty Salon | Contacto',
+    title: 'Alejandra | Contacto',
     component: ContactComponent
   },
   {

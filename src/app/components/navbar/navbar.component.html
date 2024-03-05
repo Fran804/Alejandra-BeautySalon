@@ -5,15 +5,13 @@
       <span class="ml-3">Alejandra Beauty Salon</span>
     </a>
     <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-      <a class="mr-5 hover:text-classic-rose-600 cursor-pointer">Inicio</a>
-      <a class="mr-5 hover:text-classic-rose-600 cursor-pointer">Servicios</a>
-      <a class="mr-5 hover:text-classic-rose-600 cursor-pointer">Galeria</a>
-      <a class="mr-5 hover:text-classic-rose-600 cursor-pointer">Contacto</a>
+      <a routerLink="/home" class="mr-5 hover:text-classic-rose-600 transition ease-in delay-75 hover:border-b-4 hover:border-classic-rose-600 cursor-pointer">Inicio</a>
+      <a routerLink="/services" class="mr-5 hover:text-classic-rose-600 transition ease-in delay-75 hover:border-b-4 hover:border-classic-rose-600 cursor-pointer">Servicios</a>
+      <a routerLink="/gallery" class="mr-5 hover:text-classic-rose-600 transition ease-in delay-75 hover:border-b-4 hover:border-classic-rose-600 cursor-pointer">Galeria</a>
+      <a routerLink="/contact" class="mr-5 hover:text-classic-rose-600 transition ease-in delay-75 hover:border-b-4 hover:border-classic-rose-600 cursor-pointer">Contacto</a>
     </nav>
-    <button class="inline-flex items-center border-2 border-classic-rose-400 py-1 px-3 hover:bg-classic-rose-600 hover:text-classic-rose-50 rounded mt-4 md:mt-0">Reserva ahora
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
+    <button class="inline-flex items-center text-white bg-classic-rose-400 border-0 py-1 px-3 hover:bg-classic-rose-600 hover:text-classic-rose-50 transition ease-out delay-75 rounded mt-4 md:mt-0">Reserva ahora
+      <i class="pi pi-whatsapp ml-3 rounded-full" style="background-color: green"></i>
     </button>
   </div>
 </header>
