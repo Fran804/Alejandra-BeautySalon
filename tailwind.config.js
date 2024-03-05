@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
     colors: {
       'classic-rose': {
         '50': '#fbf4f9',
@@ -19,6 +19,14 @@ module.exports = {
         '900': '#6d2e52',
         '950': '#41162f',
       },
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
+      yellow: colors.yellow,
     }
   },
   plugins: [],
