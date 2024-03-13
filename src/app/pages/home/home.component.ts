@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { CarouselModule } from 'primeng/carousel';
 import { RouterLink } from '@angular/router';
+import { WaterButtonComponent } from './components/water-button/water-button.component';
+import { CarouselModule } from 'primeng/carousel';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CarouselModule, RouterLink],
+  imports: [RouterLink, WaterButtonComponent, CarouselModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -26,14 +27,6 @@ export class HomeComponent implements OnInit {
       {
         id: 3,
         image: 'galery3.jpg',
-      },
-      {
-        id: 4,
-        image: 'galery4.jpg',
-      },
-      {
-        id: 5,
-        image: 'galery5.jpg',
       },
     ]
   }

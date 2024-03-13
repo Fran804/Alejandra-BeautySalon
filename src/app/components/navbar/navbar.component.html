@@ -1,17 +1,15 @@
-<header class="text-gray-600 body-font bg-classic-rose-100 shadow-md">
+<header class="text-black bg-classic-rose-300 shadow">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center mb-4 md:mb-0">
       <img class="w-14 h-14" src="../../../assets/img/Logo.png" alt="">
       <span class="ml-3">Alejandra Beauty Salon</span>
     </a>
     <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-      <a routerLink="/home" class="mr-5 hover:text-classic-rose-600 transition ease-in delay-75 hover:border-b-4 hover:border-classic-rose-600 cursor-pointer">Inicio</a>
-      <a routerLink="/services" class="mr-5 hover:text-classic-rose-600 transition ease-in delay-75 hover:border-b-4 hover:border-classic-rose-600 cursor-pointer">Servicios</a>
-      <a routerLink="/gallery" class="mr-5 hover:text-classic-rose-600 transition ease-in delay-75 hover:border-b-4 hover:border-classic-rose-600 cursor-pointer">Galeria</a>
-      <a routerLink="/contact" class="mr-5 hover:text-classic-rose-600 transition ease-in delay-75 hover:border-b-4 hover:border-classic-rose-600 cursor-pointer">Contacto</a>
+      <a routerLink="/home" class="mr-5 relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center cursor-pointer">Inicio</a>
+      <a routerLink="/services" class="mr-5 relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center cursor-pointer">Servicios</a>
+      <a routerLink="/gallery" class="mr-5 relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center cursor-pointer">Galeria</a>
+      <a routerLink="/contact" class="mr-5 relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center cursor-pointer">Contacto</a>
     </nav>
-    <button class="inline-flex items-center text-white bg-classic-rose-400 border-0 py-1 px-3 hover:bg-classic-rose-600 hover:text-classic-rose-50 transition ease-out delay-75 rounded mt-4 md:mt-0">Reserva ahora
-      <i class="pi pi-whatsapp ml-3 rounded-full" style="background-color: green"></i>
-    </button>
+    <app-nav-button/>
   </div>
 </header>
